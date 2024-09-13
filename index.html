@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Club Events Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Club</h1>
+        <p>Your one-stop hub for all upcoming events and activities.</p>
+    </header>
+
+    <section id="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>EID</h3>
+            <p>Date: 20th Sept 2024</p>
+            <p>Description of the event and why it's exciting.</p>
+        </div>
+        <div class="event">
+            <h3>DIWALI</h3>
+            <p>Date: 25th Sept 2024</p>
+            <p>Brief details about this event.</p>
+        </div>
+    </section>
+
+    <section id="registration">
+        <h2>Register for Events</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="event">Choose an Event:</label>
+            <select id="event" name="event">
+                <option value="event1">Event Name 1</option>
+                <option value="event2">Event Name 2</option>
+            </select>
+            
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <section id="calendar">
+        <h2>Event Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=Your_Time_Zone" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <footer>
+        <p>© 2024 Club Events. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
